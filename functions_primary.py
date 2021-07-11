@@ -1,5 +1,5 @@
-# author:
-# date:
+# author: Brianna Blue
+# date: 7/7/21
 
 
 # --------------- Section 1 --------------- #
@@ -26,7 +26,21 @@
 
 print('The absolute value of -15 is:', abs(-15))
 
-
+hex_value = hex(21)
+print('the hexadecimal value of 21 is', hex_value) 
+print()
+id_hex = id(hex_value)
+print('the id of this value is',id_hex )
+print()
+function_value = int(2 ** 5)
+print('the value of this is', function_value)
+print()
+round_float = round(3.75123)
+print('the rounded integer to this is', round_float)
+print()
+length_of_name = len('brianna'+'blue')
+print('the length of my full name is', length_of_name)
+print()
 # --------------- Section 2 --------------- #
 
 # 1 | Function Definitions no Parameters
@@ -43,8 +57,18 @@ print('The absolute value of -15 is:', abs(-15))
 #   1 - Call each function once.
 #
 # WRITE CODE BELOW
+def print_name():
+    print('Brianna Blue!')
 
+def print_animal():
+    print('otters, lions, pandas')
 
+def print_num():
+    print(31, 43, 55)
+
+print_name()
+print_animal()
+print_num()
 # 2 | Function Definitions with Parameters
 #
 # Relevant Documentation:
@@ -71,3 +95,15 @@ print('The absolute value of -15 is:', abs(-15))
 #   2 - For the 3rd function, save the return value to a variable and print it.
 #
 # WRITE CODE BELOW
+
+def print_cubed(num):
+    print(f'{num} cubed is: {num ** 3}')
+
+print_cubed(12)
+print()
+
+def add(a, b, c):
+    print(f' {a, b, c} summed up is: {a + b + c}')
+print(add(5, 10, 15))
+
+def
